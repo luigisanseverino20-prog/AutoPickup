@@ -1,0 +1,13 @@
+name: AutoPickup
+version: 1.0
+main: it.luigisanseverino.autopickup.Main
+api-version: 1.21
+description: Raccoglie automaticamente i blocchi tenendo Shift
+author: LuigiSanseverino
+
+commands:
+  autopickup:
+    description: Attiva o disattiva l'auto pickup
+    usage: /autopickup
+    permission: autopickup.use
+    permission-message: Non hai il permesso per usare questo comando.
